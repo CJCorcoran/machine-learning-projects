@@ -1,3 +1,9 @@
 This classification project tests determines whether or not, based on 13 medical attributes, a patient may have heart disease.
 
-Based on the data, the best model utilized logistic regression having an accuracy/precision of 83%/88% and an F1 score of 78%.  The lower accuracy might be from having less than 300 pieces of data to train and prepare a better model.
+Achieved an accuracy of close to 85% with logistic regression that was cross-validated. The sex (being male), Thalassemia (a blood disorder), and the number of major vessels colored by fluoroscop during investigation are the biggest predictors for heart disease.
+
+Possible ways to improve:
+
+1. Collect more data (<300 pts)
+2. Better model
+3. Improve current model more
