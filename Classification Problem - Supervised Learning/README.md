@@ -1,3 +1,5 @@
+#Heart Disease Prediction with a Machine Learning/Deep Learning Models
+
 This binary classification project determines whether or not, based on 13 medical attributes, a patient may have heart disease.
 
 I was able to achieve an accuracy of close to 85% with logistic regression that was cross-validated. A simple deep learning model -- as a quick sanity check -- was also employed to obtain an accuracy of 85%. The sex (being male), Thalassemia diagnosis, and the outcome of fluoroscopy characterization are the biggest predictors for heart disease in a patient.
