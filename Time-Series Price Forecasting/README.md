@@ -1,0 +1,3 @@
+# Time-series forecasting the SP 500
+
+Summary: This notebook will use a few simple neural networks to predict the future price of the SP500.  Using a simple model, the accuracy of our price prediction could only be improved by ~1% relative to the baseline.  (The baseline used is the previous day's closing price.)  Price prediction, such as for stocks, is extremely difficult based upon the [efficent market hypothesis](https://en.wikipedia.org/wiki/Efficient-market_hypothesis).  The purpose, therefore, of this notebook is a demonstration of timeseries forecasting using machine learning.  I will show predictions from data going to June 2022.  I will also show a machine learning model could not predict Black Monday, when the SP500 fell by 20% in a single day.
