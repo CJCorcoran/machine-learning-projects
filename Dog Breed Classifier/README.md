@@ -1,5 +1,3 @@
 # Dog Breed Classifier
 
-This notebook builds a multi-class image classifier to determine the breed of a dog based upon 120 breeds.  I will employ transfer learning by deploying the InceptionV3 model from TensorFlow Hub.  Additionally, I will use data augmentation on the images and fine-tune the model's last 20 layers to improve its accuracy. For brevity, I will only show the best model's result.
-
-Because I only know the correct breeds for the training set, improved results for the test set will be explained in differences from the computed multi-class log loss values; meaning, a lower value produces a better probability of prediction.
+This notebook builds a multi-class image classifier, based upon a [Kaggle competition dataset](https://www.kaggle.com/c/dog-breed-identification/data), to determine the breed of a dog based upon 120 breeds.  By using transfer learning via TensorFlow Hub's builtin model set, the InceptionV3 model was able to achieve a multi-class log loss value of about 20.  (Note: Per the competition guidelines, multi-class log loss values are computeted by Kaggle and a lower value means higher accuracy.)  After employing data augmentation on the images, as well as fine-tuning the model's last 20 layers, the multi-class log loss value dropped to 0.943.
